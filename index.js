@@ -15,8 +15,3 @@ question.addEventListener("click", () => {
  
 });
 
-// const question = document.querySelector(".question");
-
-// question.addEventListener("click",()=>{
-    
-// })
