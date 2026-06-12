@@ -15,3 +15,25 @@
  
 // });
 
+// const hambarger = document.querySelector(".hambarger");
+// const menu = document.querySelector(".menu");
+
+// hambarger.addEventListener("click", () => {
+//   menu.classList.toggle("show");
+
+//   if (hambarger.textContent === "☰") {
+//     hambarger.textContent = "✖";
+//   } else {
+//     hambarger.textContent = "☰";
+//   }
+// });
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+
+  hamburger.textContent =
+    hamburger.textContent === "☰" ? "✖" : "☰";
+});
